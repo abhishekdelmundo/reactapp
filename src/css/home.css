@@ -1,0 +1,348 @@
+::selection {
+   color: white;
+   background-color: black;
+}
+
+body {
+   font-family: serif;
+}
+
+.children_x1 {
+   height: 500px;
+   width: 100%;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.child {
+   width: 1000px;
+   height: 400px;
+   display: flex;
+   /* margin: auto; */
+}
+
+.g_child1, .g_child2 {
+   height: 100%;
+   width: 50%;
+}
+
+.g_child1 h2 {
+   font-size: 4em;
+   line-height: 1.4em;
+   color: white;
+   
+   /* padding-left: 20px; */
+}
+.g_child1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.g_child2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   border-radius: 30% 70% 42% 58% / 30% 30% 70% 70%;
+
+}
+
+.g_child1 p {
+   color: white;
+   font-size: 1.4em;
+   padding-top: 20px;
+}
+.g_child2 img {
+   width: 280px;
+   height: 300px;
+}
+
+.pop {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+.pop_box {
+   position: absolute;
+   padding: 30px;
+   width: 700px;
+   margin-top: -10px;
+   border-radius: 15px;
+   background-color: aliceblue;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   display: flex;
+}
+
+.pop_box p {
+   font-style: italic;
+   padding-left: 20px;
+   font-size: 1.6em;
+}
+
+.cust_review {
+   width: 80%;
+}
+
+.profile {
+   width: 20%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.profile img {
+   border: 2px solid black;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}
+
+.author {
+   padding-top: 20px;
+   float: right;
+}
+.chrildren_x2 {
+   background-color: #182527;
+   width: 100%;
+   padding: 130px 0px;
+}
+
+.chrildren_x2 h3 {
+   font-size: 3em;
+   padding-bottom: 40px;
+   text-align: center;
+   color: white;
+}
+
+.dic_xj {
+   gap: 50px;
+   /* width: 80%; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.ggg {
+   padding: 30px;
+   border-radius: 10px;
+   background-color: white;
+}
+
+.ggg:hover {
+   margin-top: -50px;
+   transition: 0.6s;
+}
+
+.ggg img {
+   width: 250px;
+   height: 250px;
+}
+
+.text-a {
+   display: flex;
+   padding: 10px;
+}
+
+.xcx {
+   padding: 2px;
+   max-height: 48px;
+   background-color: black;
+   border-radius: 100px;
+}
+
+.txt-c {
+   padding-left: 15px;
+   width: 250px;
+}
+.txt-c h3 {
+   text-align: left;
+   font-size: 2.2em;
+   padding-bottom: 5px;
+   color: black;
+}
+
+.txt-c p {
+   text-indent: 20px;
+   font-size: 1.2em;
+   line-height: 1.4em;
+}
+
+/* curosel */
+
+
+
+/* cookie */
+
+.cookie_div {
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+   border-radius: 10px;
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cookie_pop {
+   padding: 20px;
+   width: 350px;
+}
+
+.cookie_pop h3 {
+   padding-bottom: 10px;
+   font-size: 2em;
+}
+
+.cookie_pop p {
+   font-size: 1.2em;
+   line-height: 1.3em;
+   padding-bottom: 10px;
+}
+
+.cookie_pop p a{
+   color: blue;
+   text-decoration: none;
+}
+
+.cookie_btn {
+   float: right;
+   padding: 5px 0px 13px 0px;
+}
+
+.cookie_btn button {
+   font-size: 1.2em;
+   font-weight: 600;
+   padding: 10px;
+   border-radius: 20px;
+   cursor: pointer;
+   background-color: black;
+   color: white;
+   border: 2px solid black;
+}
+
+.cookie_btn button:nth-child(1) {
+   margin-right: 10px;
+   background-color: antiquewhite;
+   color: black;
+   border: 2px solid black;
+}
+
+.subscribe {
+   width: 100%;
+   padding: 40px 0px 40px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.subscribe h3{
+   text-align: center;
+   font-size: 4em;
+}
+
+.sub_div {
+   display: flex;
+   padding: 20px;
+}
+
+.sub_div input {
+   padding: 8px;
+   font-size: 1.2em;
+   width: 400px;
+   /* border-radius: 6px; */
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   outline: none;
+   border-right: none;
+}
+
+.sub_div button {
+   background-color: black;
+   color: white;
+   font-size: .9em;
+   font-weight: 600;
+   padding: 0px 9px 0px 9px;
+   cursor: pointer;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+   .children_x1 {
+      height: 400px;
+   }
+
+   .child {
+      height: 300px;
+      width: 90%;
+   }
+   .g_child1 h2 {
+      font-size: 3.7em;
+      line-height: 1.4em;
+   }
+   .g_child1 p {
+      font-size: 1.2em;
+   }
+   .g_child2 img{
+      width: 190px;
+      height: 220px;
+   }
+
+   .pop_box {
+      padding: 10px;
+      width: 80%;
+   }
+
+   .pop_box p {
+      font-size: 1.2em;
+      line-height: 1.2em;
+   }
+   .cust_review {
+      width: 80%;
+   }
+   .cust_review img {
+      width: 15px;
+      height: 15px;
+   }
+   .profile img{
+      border: 2px solid black;
+      width: 50px;
+      height: 50px;
+   }
+
+   .subscribe {
+      padding: 30px 0px 30px 0px;
+   }
+   .subscribe h3 {
+      font-size: 2.8em;
+   }
+   .sub_div {
+      padding: 15px;
+   }
+   .cookie_pop {
+      width: 310px;
+   }
+
+   .cookie_pop h3 {
+      font-size: 1.7em;
+   }
+   .cookie_pop p {
+      font-size: 1.1em;
+      line-height: 1.4em;
+      padding-bottom: 8px;
+      letter-spacing: 0.2px;
+   }
+
+   .dic_xj {
+      flex-wrap: wrap;
+      gap: 40px;
+   }
+   .ggg:hover {
+      margin-top: 0%;
+      transition: none;
+   }
+}

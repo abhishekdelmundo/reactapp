@@ -1,0 +1,46 @@
+* {
+   margin: 0;
+}
+
+.login-form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 100px;
+   font-family: serif;
+}
+
+.main-form {
+   background-color: black;
+   padding: 40px 30px 20px 30px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+}
+
+.main-form h3 {
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   font-size: 2.3em;
+   padding-bottom: 10px;
+}
+.main-form input {
+   border: 2px solid black;
+   border-radius: 30px;
+   font-size: 1.1em;
+   width: 300px;
+   padding: 9px 0px 9px 6px;
+   margin-bottom: 10px;
+   outline: none;
+}
+
+.main-form button {
+   padding: 9px;
+   font-size: 1em;
+   width: 70px;
+}
+
+.main-form p {
+   color: white;
+}

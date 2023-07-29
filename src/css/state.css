@@ -1,0 +1,32 @@
+.usestate {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+.count {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.count button {
+   padding: 8px 15px 8px 15px;
+   cursor: pointer;
+   background-color: black;
+   color: white;
+   font-weight: bold;
+   font-size: 1.3em;
+   border-radius: 10px;
+
+}
+
+.counter {
+   padding: 8px 15px 8px 15px;
+   border-radius: 10px;
+   border: 2px solid gray;
+   font-weight: bold;
+   font-size: 1.3em;
+}

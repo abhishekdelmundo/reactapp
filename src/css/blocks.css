@@ -1,0 +1,59 @@
+* {
+   margin: 0;
+}
+
+.Blocks-main-xcvf {
+   font-family: serif;
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+}
+.Blocks-main-xcvf h2 {
+   font-size: 2em;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.Blocks-children-xcsgc {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.bloks-container-dshdg {
+   width: 400px;
+   border-radius: 10px;
+   display: flex;
+   padding: 12px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+   max-height: 300px;
+   cursor: pointer;
+}
+.bloks-container-dshdg img {
+   max-height: 200px;
+   border-radius: 10px;
+}
+
+
+.bloks-container-dshdg:hover {
+   transition: 0.3s;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.dev-details-csf {
+   margin-left: 15px;
+}
+
+.dev-details-csf h3 {
+   padding-top: 10px;
+   font-size: 1.7em;
+   font-weight: bold;
+}
+
+.dev-details-csf p {
+   padding-top: 20px;
+   font-size: 1.3em;
+   line-height: 1.3em;
+   text-indent: 10px;
+}
